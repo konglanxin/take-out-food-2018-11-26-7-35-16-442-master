@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Take Out Food</title>
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <script type="text/javascript" src="../src/items.js"></script>
+    <script type="text/javascript" src="../src/promotions.js"></script>
+    <script type="text/javascript" src="../src/best-charge.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+</head>
+
+<body>
+
+<h1>“好多肉”在线点餐系统</h1>
+
+<div class="menu">
+    <h2>菜单</h2>
+    <div id="items"></div>
+</div>
+
+<div class="menu">
+    <h2>优惠</h2>
+    <div id="promotions"></div>
+</div>
+
+<div class="operation">
+    <button onclick="calculatePrice()">结算</button>
+    <button onclick="Clear()">清除</button>
+</div>
+
+<pre id="message">
+
+    </pre>
+
+</body>
+
+</html>

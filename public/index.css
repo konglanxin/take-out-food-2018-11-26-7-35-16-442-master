@@ -1,0 +1,48 @@
+h1{
+	text-align:center;
+}
+
+h2 {
+	border-bottom: 1px solid #dddddd;
+	height:30px;
+	padding:10px;
+	margin: 0px;
+	background: #eeeeee;
+}
+
+.menu{
+	border: 1px solid #dddddd;
+	display:block;
+	overflow:auto;
+	margin:30%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.item{
+	float: left;
+	display: block;
+	width: 10%;
+}
+
+#items{
+	padding: 10px;
+}
+
+#promotions{
+	padding: 10px;
+}
+
+.operation{
+	text-align:center;
+}
+
+#message {
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #dddddd;
+	margin:30%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align:center;
+}
